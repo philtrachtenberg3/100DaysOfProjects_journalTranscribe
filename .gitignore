@@ -1,0 +1,22 @@
+# Exclude the images/ folder
+images/
+
+# Exclude Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude virtual environment
+venv/
+env/
+
+# Exclude OS-specific files
+.DS_Store
+Thumbs.db
+
+# Exclude IDE/editor config files
+.vscode/
+.idea/
+
+# Exclude uploaded files
+static/uploads/
